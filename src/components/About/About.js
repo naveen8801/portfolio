@@ -85,7 +85,7 @@ function About() {
             or check my{' '}
             <a
               className={classes.link}
-              href="https://drive.google.com/file/d/1GN9gDHGwa46t61mcxThy2RAxeHaFzZQf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gNxBUtaStCSCT5avVMszmB9gGBkDH_K4/view?usp=sharing"
             >
               Resume
             </a>{' '}
