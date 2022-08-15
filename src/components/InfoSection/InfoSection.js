@@ -6,6 +6,7 @@ import gmail from './../../assets/mail.svg';
 import insta from './../../assets/instagram.svg';
 import github from './../../assets/github.svg';
 import twitter from './../../assets/twitter.svg';
+import my from './../../assets/IMG_20220507_164745 - Copy.jpg';
 
 const useStyles = makeStyles(() => ({
   InfoDiv: {
@@ -63,7 +64,7 @@ function InfoSection() {
   return (
     <div className={classes.InfoDiv}>
       <div className={classes.imgWrapper}>
-        <img src={ProfilePic} className={classes.Infoimg} alt="info-img" />
+        <img src={my} className={classes.Infoimg} alt="info-img" />
       </div>
       <div className={classes.InfoTitle}>
         <h1 className={classes.infoNameHead}>Naveen Kumar</h1>

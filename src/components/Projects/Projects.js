@@ -78,15 +78,21 @@ const projectsList = [
     github: 'https://github.com/naveen8801/VoteMe-webapp',
   },
   {
-    name: 'Amazon-Clone',
-    techStack: ['ReactJs', 'Firebase'],
-    description: [
-      'Fully featured amazon clone using ReactJS',
-      'Payment functionality using stripe payment',
-      'Deployed to google firebase hosting',
-    ],
-    github: 'https://github.com/naveen8801/my_amazon-clone',
+    name: 'gFormJS',
+    techStack: ['React-ink', 'OAuth'],
+    description: ['A CLI tool to create google form through CLI'],
+    github: 'https://github.com/naveen8801/gFormJS',
   },
+  // {
+  //   name: 'Amazon-Clone',
+  //   techStack: ['ReactJs', 'Firebase'],
+  //   description: [
+  //     'Fully featured amazon clone using ReactJS',
+  //     'Payment functionality using stripe payment',
+  //     'Deployed to google firebase hosting',
+  //   ],
+  //   github: 'https://github.com/naveen8801/my_amazon-clone',
+  // },
 ];
 
 function Projects() {

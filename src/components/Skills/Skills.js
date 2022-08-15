@@ -15,6 +15,7 @@ import azure from './../../assets/skills-logo/heroku-icon.svg';
 import heroku from './../../assets/skills-logo/microsoft_azure-icon.svg';
 import flask from './../../assets/skills-logo/pocoo_flask-icon.svg';
 import SkillsCard from './SkillsCard/SkillsCard';
+import next from './../../assets/skills-logo/next.png';
 
 const SkillsData = [
   {
@@ -41,6 +42,11 @@ const SkillsData = [
     name: 'ReactJs',
     type: 'frameW',
     img: react,
+  },
+  {
+    name: 'NextJs',
+    type: 'frameW',
+    img: next,
   },
   {
     name: 'NodeJs',
@@ -76,11 +82,6 @@ const SkillsData = [
     name: 'Heroku',
     type: 'tools',
     img: heroku,
-  },
-  {
-    name: 'Azure',
-    type: 'tools',
-    img: azure,
   },
 ];
 
