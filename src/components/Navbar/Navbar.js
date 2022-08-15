@@ -118,7 +118,7 @@ function Navbar() {
           <ul className={classes.navList}>
             <a
               className={classes.navLink}
-              href="https://drive.google.com/file/d/1gNxBUtaStCSCT5avVMszmB9gGBkDH_K4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing"
             >
               <li className={classes.navLi}>Resume</li>
             </a>
