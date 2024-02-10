@@ -8,7 +8,7 @@ import DataProvider from "@/providers/DataProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hello Viewer 👋",
+  title: "Hello! 👋",
   description: "Portfolio Website",
 };
 
