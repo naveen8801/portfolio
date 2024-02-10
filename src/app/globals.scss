@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 body {
-  // height: 100vh;
   padding: 0;
   margin: 0;
+}
+
+@layer base {
+  :root[class~="dark"] {
+    background-color: #040d12;
+  }
 }

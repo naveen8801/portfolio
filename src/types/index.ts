@@ -30,6 +30,7 @@ interface ILinks {
   github: string;
   twitter: string;
   email: string;
+  resume: string;
 }
 
 interface IExperience {

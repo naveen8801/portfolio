@@ -9,7 +9,7 @@ const LayoutProvider: React.FC<{
   return (
     <div className="h-screen flex flex-col">
       <NavBar data={data} />
-      <div className="h-full overflow-auto bg-green-700">{children}</div>
+      <div className="h-full overflow-aut">{children}</div>
       <Footer data={data} />
     </div>
   );

@@ -86,5 +86,7 @@ export const data: IData = {
     github: "https://github.com/naveen8801",
     twitter: "",
     email: "naveensharma10d@gmail.com",
+    resume:
+      "https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing",
   },
 };

@@ -12,13 +12,21 @@ const ThemeSwitcher: React.FC = (): React.ReactElement => {
 
     if (currentTheme === "dark") {
       return (
-        <MdDarkMode size={30} onClick={() => setTheme("light")}>
+        <MdDarkMode
+          className="animate-pulse hover:cursor-pointer"
+          size={30}
+          onClick={() => setTheme("light")}
+        >
           Enable light
         </MdDarkMode>
       );
     } else {
       return (
-        <MdLightMode size={30} onClick={() => setTheme("dark")}>
+        <MdLightMode
+          className="animate-pulse hover:cursor-pointer"
+          size={30}
+          onClick={() => setTheme("dark")}
+        >
           Enable Dark
         </MdLightMode>
       );
