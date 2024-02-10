@@ -1,9 +1,11 @@
+import { StaticImageData } from "next/image";
+
 interface IIntroduction {
   name: string;
   bio: string;
   currentCompany: string;
   about: string;
-  profileImage: string;
+  profileImage: StaticImageData;
 }
 
 interface IEducation {

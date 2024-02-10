@@ -1,4 +1,5 @@
 import { IData } from "./../types/index";
+import img from "./../assets/main.jpg";
 
 export const data: IData = {
   Introduction: {
@@ -6,7 +7,7 @@ export const data: IData = {
     bio: "Founding Software Engineer",
     currentCompany: "StackGuardian",
     about: "",
-    profileImage: "", // Add image path
+    profileImage: img,
   },
   Education: [
     {
