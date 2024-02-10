@@ -4,6 +4,7 @@ import "./globals.scss";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { data } from "@/lib/data";
+import ThemeProviderComponent from "@/providers/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar data={data} />
-        {children}
-        <Footer data={data} />
+        <ThemeProviderComponent>
+          <div className="h-screen">
+            <NavBar data={data} />
+            <div className="width container">{children}</div>
+            <Footer data={data} />
+          </div>
+        </ThemeProviderComponent>
       </body>
     </html>
   );
