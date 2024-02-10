@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { useTheme } from "next-themes";
+import { MdDarkMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
 
 const ThemeSwitcher: React.FC = (): React.ReactElement => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -9,9 +11,17 @@ const ThemeSwitcher: React.FC = (): React.ReactElement => {
     const currentTheme = theme === "system" ? systemTheme : theme;
 
     if (currentTheme === "dark") {
-      return <p onClick={() => setTheme("light")}>Enable light</p>;
+      return (
+        <MdDarkMode size={30} onClick={() => setTheme("light")}>
+          Enable light
+        </MdDarkMode>
+      );
     } else {
-      return <p onClick={() => setTheme("dark")}>Enable Dark</p>;
+      return (
+        <MdLightMode size={30} onClick={() => setTheme("dark")}>
+          Enable Dark
+        </MdLightMode>
+      );
     }
   };
 
