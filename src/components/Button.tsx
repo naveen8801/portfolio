@@ -26,7 +26,7 @@ const Button: React.FC<IProp> = ({
     );
   } else if (variant === "link") {
     return (
-      <Link href={url} passHref={true}>
+      <Link href={url} target="_blank">
         <div className="h-10 min-w-28 font-extrabold text-lg flex items-center justify-center hover:cursor-pointer hover:scale-105">
           {children}
         </div>
