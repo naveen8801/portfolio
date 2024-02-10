@@ -7,9 +7,9 @@ const LayoutProvider: React.FC<{
   children: ReactNode;
 }> = ({ children }): React.ReactElement => {
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col box-border">
       <NavBar data={data} />
-      <div className="h-full overflow-aut">{children}</div>
+      <div className="h-full overflow-auto box-border">{children}</div>
       <Footer data={data} />
     </div>
   );
