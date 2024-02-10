@@ -35,9 +35,7 @@ const IntroductionSection: React.FC = (): React.ReactElement => {
             currentCompany={currentCompany}
             currentPosition={currentPosition}
           />
-          <p className="text-m text-slate-500 text-justify text-center">
-            {about}
-          </p>
+          <p className="text-m text-slate-500 text-justify">{about}</p>
         </div>
       </div>
     </div>
