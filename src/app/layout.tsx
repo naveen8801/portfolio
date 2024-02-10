@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
-import { data } from "@/lib/data";
 import ThemeProviderComponent from "@/providers/ThemeProvider";
+import LayoutProvider from "@/providers/LayoutProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProviderComponent>
-          <div className="h-screen">
-            <NavBar data={data} />
-            <div className="width container">{children}</div>
-            <Footer data={data} />
-          </div>
+          <LayoutProvider>{children}</LayoutProvider>
         </ThemeProviderComponent>
       </body>
     </html>
