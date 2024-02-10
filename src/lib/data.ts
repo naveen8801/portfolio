@@ -4,10 +4,12 @@ import img from "./../assets/main.jpg";
 export const data: IData = {
   Introduction: {
     name: "Naveen",
-    bio: "Founding Software Engineer",
+    currentPosition: "Founding Software Engineer",
     currentCompany: "StackGuardian",
-    about: "",
+    about:
+      "Hi there! I'm a software engineer who loves finding patterns and connecting dots, be it ideas from different industries, people from different backgrounds and teams, or applications from different industries. I have strong technical skills, particularly in web development-related technologies. Apart from this, I love contributing to open source. ",
     profileImage: img,
+    companyWebsiteURL: "https://www.stackguardian.io/",
   },
   Education: [
     {

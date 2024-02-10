@@ -2,8 +2,9 @@ import { StaticImageData } from "next/image";
 
 interface IIntroduction {
   name: string;
-  bio: string;
+  currentPosition: string;
   currentCompany: string;
+  companyWebsiteURL: string;
   about: string;
   profileImage: StaticImageData;
 }
