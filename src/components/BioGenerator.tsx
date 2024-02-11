@@ -15,7 +15,7 @@ const BioGenerator: React.FC<IProps> = (props): React.ReactElement => {
       <div className="text-l italic font-bold-light">
         <span>" </span>
         <span>{currentPosition}</span>
-        <span className="text-blue-500 ml-1">
+        <span className="text-blue-500 dark:text-blue-400  ml-1">
           <Link
             href={companyWebsiteURL}
             target="_blank"
