@@ -18,7 +18,7 @@ const IntroductionSection: React.FC = (): React.ReactElement => {
   } = data;
 
   return (
-    <div className="w-full box-border h-fit my-12 p-2 md:3 lg:4">
+    <div className="w-full box-border h-fit my-16 p-2 md:3 lg:4">
       <div className="w-full h-full flex flex-col gap-4 md:flex-row lg:flex-row">
         <div className="w-full flex items-center justify-center md:w-1/2 lg:w-1/3">
           <div className="w-64 md:w-full h-auto ">
