@@ -38,7 +38,9 @@ const SocialLinks: React.FC<IProps> = (props): React.ReactElement => {
     }
     return (
       <div className="w-fit py-2 flex items-center justify-between gap-4">
-        {listElement.map((el) => el)}
+        {listElement.map((el, idx) => (
+          <div key={idx}>{el}</div>
+        ))}
       </div>
     );
   }, [props]);
