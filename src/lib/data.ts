@@ -87,9 +87,10 @@ export const data: IData = {
   ],
   Links: {
     github: "https://github.com/naveen8801",
-    twitter: "",
+    twitter: "https://twitter.com/naveen__8801",
     email: "naveensharma10d@gmail.com",
     resume:
       "https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing",
+    linkdin: "https://www.linkedin.com/in/naveen-kumar-6777881ab/",
   },
 };

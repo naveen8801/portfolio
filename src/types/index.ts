@@ -34,6 +34,7 @@ interface ILinks {
   twitter: string;
   email: string;
   resume: string;
+  linkdin: string;
 }
 
 interface IExperience {

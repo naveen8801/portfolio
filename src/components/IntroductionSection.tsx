@@ -3,9 +3,11 @@ import { DataProviderContext } from "@/context";
 import Image from "next/image";
 import React, { useContext } from "react";
 import BioGenerator from "./BioGenerator";
+import SocialLinks from "./SocialLinks";
 
 const IntroductionSection: React.FC = (): React.ReactElement => {
   const data = useContext(DataProviderContext).Introduction;
+  const links = useContext(DataProviderContext).Links;
   const {
     name,
     profileImage,
@@ -34,6 +36,11 @@ const IntroductionSection: React.FC = (): React.ReactElement => {
             companyWebsiteURL={companyWebsiteURL}
             currentCompany={currentCompany}
             currentPosition={currentPosition}
+          />
+          <SocialLinks
+            githubLink={links.github}
+            twitterLink={links.twitter}
+            linkedinLink={links.linkdin}
           />
           <p className="text-m text-slate-500 text-justify">{about}</p>
         </div>
