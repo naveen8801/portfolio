@@ -8,10 +8,10 @@ const EducationSection: React.FC = (): React.ReactElement => {
   return (
     <div className="w-full box-border h-fit my-16 p-2 md:p-3 lg:p-4">
       <div className="w-full flex flex-col gap-3 justify-center items-center">
-        <h1 className="w-full text-5xl text-center font-bold md:text-left lg:text-lef">
+        <h1 className="w-full text-5xl text-center font-bold md:text-left lg:text-left">
           Education
         </h1>
-        <div>
+        <div className="w-full">
           {data.map((ed, idx) => (
             <div key={idx} className="text-center mb-4 md:text-left">
               <div className="text-l font-semibold mb-1">{ed.title}</div>
