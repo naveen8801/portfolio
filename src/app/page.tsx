@@ -1,9 +1,9 @@
-import EducationSection from "@/components/EducationSection";
-import ExperienceSection from "@/components/ExperienceSection";
-import IntroductionSection from "@/components/IntroductionSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import RevealAnimation from "@/components/RevealAnimation";
-import SkillsSection from "@/components/SkillsSection";
+import EducationSection from "./../components/EducationSection";
+import ExperienceSection from "./../components/ExperienceSection";
+import IntroductionSection from "./../components/IntroductionSection";
+import ProjectsSection from "./../components/ProjectsSection";
+import RevealAnimation from "./../components/RevealAnimation";
+import SkillsSection from "./../components/SkillsSection";
 
 export default function Home() {
   return (
