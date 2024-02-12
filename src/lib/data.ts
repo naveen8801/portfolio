@@ -21,10 +21,19 @@ export const data: IData = {
       end: "2023",
     },
   ],
-  Skills: {
-    languages: ["JavaScript", "TypeScript", "Python", "C++", "Python"],
-    frameworks: ["ReactJS", "NextJS", "ExpressJS", "Python Flask", "Django"],
-  },
+  Skills: [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "C++",
+    "ReactJS",
+    "NextJS",
+    "NodeJS",
+    "Socket.io",
+    "ExpressJS",
+    "Python Flask",
+    "Django",
+  ],
   Experience: [
     {
       company: "StackGuardian",

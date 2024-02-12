@@ -17,11 +17,6 @@ interface IEducation {
   end: string;
 }
 
-interface ISkills {
-  languages: string[];
-  frameworks: string[];
-}
-
 interface IProjects {
   title: string;
   sourceCodeLink: string;
@@ -49,7 +44,7 @@ interface IExperience {
 export interface IData {
   Introduction: IIntroduction;
   Education: IEducation[];
-  Skills: ISkills;
+  Skills: string[];
   Experience: IExperience[];
   Projects: IProjects[];
   Links: ILinks;
