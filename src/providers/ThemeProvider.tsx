@@ -12,7 +12,7 @@ const ThemeProviderComponent: React.FC<IProp> = (props): React.ReactElement => {
 
   useEffect(() => {
     setMounted(true);
-  }, []);
+  });
 
   if (!mounted) {
     return <>{children}</>;
