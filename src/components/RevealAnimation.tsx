@@ -16,7 +16,7 @@ const Reveal: React.FC<IProp> = ({ children, width = "fit-content" }) => {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   return (
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
