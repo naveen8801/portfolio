@@ -12,7 +12,7 @@ const Badge: React.FC<IProp> = (props): React.ReactElement => {
   return (
     <div className="w-fit p-2 rounded-xl flex gap-1 items-center justify-center border-2">
       <Icon size={27} />
-      <span className="text-l">{text}</span>
+      <span className="text-m">{text}</span>
     </div>
   );
 };
