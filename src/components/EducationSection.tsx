@@ -1,10 +1,9 @@
-"use client";
-import { DataProviderContext } from "@/context";
-import React, { useContext } from "react";
+import { data as Data } from "./../lib/data";
+import React from "react";
 import { FaLocationDot, FaCalendar } from "react-icons/fa6";
 
 const EducationSection: React.FC = (): React.ReactElement => {
-  const data = useContext(DataProviderContext).Education;
+  const data = Data.Education;
   return (
     <div className="w-full box-border h-fit my-16 p-2 md:p-3 lg:p-4">
       <div className="w-full flex flex-col gap-3 justify-center items-center">

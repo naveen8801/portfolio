@@ -1,10 +1,9 @@
-"use client";
-import { DataProviderContext } from "@/context";
-import React, { useContext } from "react";
+import { data as Data } from "./../lib/data";
+import React from "react";
 import ExperienceItem from "./ExperienceItem";
 
 const ExperienceSection: React.FC = (): React.ReactElement => {
-  const data = useContext(DataProviderContext).Experience;
+  const data = Data.Experience;
   return (
     <div className="w-full box-border h-fit my-16 p-2 md:3 lg:4">
       <div className="w-full flex flex-col gap-3 justify-center items-center">

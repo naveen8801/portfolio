@@ -1,13 +1,12 @@
-"use client";
-import { DataProviderContext } from "@/context";
 import Image from "next/image";
-import React, { useContext } from "react";
+import React from "react";
 import BioGenerator from "./BioGenerator";
 import SocialLinks from "./SocialLinks";
+import { data as Data } from "./../lib/data";
 
 const IntroductionSection: React.FC = (): React.ReactElement => {
-  const data = useContext(DataProviderContext).Introduction;
-  const links = useContext(DataProviderContext).Links;
+  const data = Data.Introduction;
+  const links = Data.Links;
   const {
     name,
     profileImage,
