@@ -14,7 +14,7 @@ const EducationSection: React.FC = (): React.ReactElement => {
         <div className="w-full">
           {data.map((ed, idx) => (
             <div key={idx} className="text-center mb-4 md:text-left">
-              <div className="text-l font-semibold mb-1">{ed.title}</div>
+              <div className="text-xl font-semibold mb-1">{ed.title}</div>
               <div className="text-m text-slate-600 dark:text-slate-400 mb-1">
                 <span className="flex justify-center items-center gap-1 md:justify-start md:items-start">
                   <FaLocationDot size={20} />

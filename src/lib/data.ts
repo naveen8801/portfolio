@@ -44,8 +44,9 @@ export const data: IData = {
         "Implemented core functionalities using ReactJS like server-side pagination, and server-side filtering which reduced the amount of data that needed to be transferred over the network and improved the application's overall performance.",
         "Worked on integration module of backend Django API and implemented functionality to support bulk accounts integration to the StackGuardian dashboard.",
       ],
-      isPresent: true,
+      end: "Present",
       start: "Feb 2023",
+      companyWebsiteURL: "https://www.stackguardian.io/",
     },
     {
       company: "StackGuardian",
@@ -58,6 +59,7 @@ export const data: IData = {
       ],
       start: "Nov 2021",
       end: "Feb 2023",
+      companyWebsiteURL: "https://www.stackguardian.io/",
     },
     {
       company: "GoGlocal",
@@ -69,6 +71,7 @@ export const data: IData = {
         "Worked on cataloging module to enhance and introduce a user-friendly interface.",
         "Worked with Django to fix minor bugs on the backend",
       ],
+      companyWebsiteURL: "https://goglocal.live/",
     },
   ],
   Projects: [

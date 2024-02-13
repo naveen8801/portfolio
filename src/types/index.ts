@@ -38,7 +38,7 @@ interface IExperience {
   start: string;
   end?: string;
   contributions: string[];
-  isPresent?: boolean;
+  companyWebsiteURL: string;
 }
 
 export interface IData {

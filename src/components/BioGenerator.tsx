@@ -12,7 +12,7 @@ const BioGenerator: React.FC<IProps> = (props): React.ReactElement => {
   const { currentPosition, currentCompany, companyWebsiteURL } = props;
   const bioElement = useMemo(() => {
     return (
-      <div className="text-l italic font-bold-light">
+      <div className="text-l italic font-bold-light md:text-xl">
         <span>" </span>
         <span>{currentPosition}</span>
         <span className="text-blue-500 dark:text-blue-400  ml-1">
