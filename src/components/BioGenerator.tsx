@@ -13,7 +13,7 @@ const BioGenerator: React.FC<IProps> = (props): React.ReactElement => {
   const bioElement = useMemo(() => {
     return (
       <div className="text-l italic font-bold-light md:text-xl">
-        <span>" </span>
+        <span>&quot; </span>
         <span>{currentPosition}</span>
         <span className="text-blue-500 dark:text-blue-400  ml-1">
           <Link
@@ -21,7 +21,7 @@ const BioGenerator: React.FC<IProps> = (props): React.ReactElement => {
             target="_blank"
           >{`@${currentCompany}`}</Link>
         </span>
-        <span> "</span>
+        <span> &quot;</span>
       </div>
     );
   }, [currentPosition, currentCompany, companyWebsiteURL]);
