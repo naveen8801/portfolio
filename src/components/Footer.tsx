@@ -14,6 +14,7 @@ const Footer: React.FC<{ data: IData }> = (props): React.ReactElement => {
           githubLink={links.github}
           twitterLink={links.twitter}
           linkedinLink={links.linkdin}
+          gmailLink={links.email}
         />
       </div>
     </button>

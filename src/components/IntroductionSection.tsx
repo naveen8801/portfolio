@@ -41,6 +41,7 @@ const IntroductionSection: React.FC = (): React.ReactElement => {
             githubLink={links.github}
             twitterLink={links.twitter}
             linkedinLink={links.linkdin}
+            gmailLink={links.email}
           />
           <p className="text-m text-slate-600 dark:text-slate-400 text-justify">
             {about}

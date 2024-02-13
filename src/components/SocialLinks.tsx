@@ -2,16 +2,18 @@
 import Link from "next/link";
 import React, { ReactElement, useMemo } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 interface IProps {
   githubLink?: string;
   linkedinLink?: string;
   twitterLink?: string;
+  gmailLink?: string;
 }
 
 const SocialLinks: React.FC<IProps> = (props): React.ReactElement => {
   const ele: ReactElement = useMemo(() => {
-    const { githubLink, linkedinLink, twitterLink } = props;
+    const { githubLink, linkedinLink, twitterLink, gmailLink } = props;
     let listElement: ReactElement[] = [];
     let iconClass = "hover:cursor-pointer hover:scale-105";
     let iconSize = 30;
@@ -33,6 +35,13 @@ const SocialLinks: React.FC<IProps> = (props): React.ReactElement => {
       listElement.push(
         <Link target="_blank" href={twitterLink}>
           <FaTwitter className={iconClass} size={iconSize} />
+        </Link>
+      );
+    }
+    if (gmailLink) {
+      listElement.push(
+        <Link target="_blank" href={`mailto:${gmailLink}`}>
+          <SiGmail className={iconClass} size={iconSize} />
         </Link>
       );
     }
