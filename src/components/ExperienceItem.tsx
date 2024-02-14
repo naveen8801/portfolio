@@ -35,7 +35,7 @@ const ExperienceItem: React.FC<IProps> = (props): React.ReactElement => {
         <FaCalendar size={18} className="text-slate-600 dark:text-slate-400" />
         <span>{`${start} - ${end}`}</span>
       </div>
-      <ul className="list-disc text-m text-slate-600 dark:text-slate-400">
+      <ul className="list-disc pl-5 text-m text-slate-600 dark:text-slate-400">
         {contributions?.map((c, idx) => (
           <li className="text-justify" key={idx}>
             {c}
