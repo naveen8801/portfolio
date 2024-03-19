@@ -76,10 +76,18 @@ export const data: IData = {
   ],
   Projects: [
     {
+      title: "DevTodo",
+      description:
+        "DevTodo is a tool that scans your GitHub repository for TODO comments in your code and lists them in an organized manner. With DevTodo, you can easily keep track of all the pending TODOs in your project, ensuring that nothing slips through the cracks.",
+      liveLink: "https://dev-todo-naveen8801.vercel.app/",
+      technologies: ["TypeScript", "NextJS", "TailwindCSS", "GithubAPI"],
+    },
+    {
       title: "gformJS",
       description:
         "A CLI tool to create Google forms through JSON file. Implemented authorization via google OAuth",
       sourceCodeLink: "https://github.com/naveen8801/gFormJS",
+      liveLink: "https://www.npmjs.com/package/google-formjs",
       technologies: ["JavaScript", "ReactJS"],
     },
     {
