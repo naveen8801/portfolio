@@ -19,7 +19,8 @@ interface IEducation {
 
 interface IProjects {
   title: string;
-  sourceCodeLink: string;
+  sourceCodeLink?: string;
+  liveLink?: string;
   description: string;
   technologies: string[];
 }
