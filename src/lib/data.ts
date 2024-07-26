@@ -96,6 +96,7 @@ export const data: IData = {
       description:
         "DevTodo is a tool that scans your GitHub repository for TODO comments in your code and lists them in an organized manner. With DevTodo, you can easily keep track of all the pending TODOs in your project, ensuring that nothing slips through the cracks.",
       liveLink: "https://dev-todo-naveen8801.vercel.app/",
+      sourceCodeLink: "https://github.com/naveen8801/DevTodo",
       technologies: ["TypeScript", "NextJS", "Tailwind", "MongoDB"],
     },
     {
