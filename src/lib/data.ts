@@ -1,4 +1,5 @@
 import { IData } from "./../types/index";
+//@ts-ignore
 import img from "./../assets/main.jpg";
 
 export const data: IData = {
@@ -76,25 +77,34 @@ export const data: IData = {
   ],
   Projects: [
     {
+      title: "FormiVerse",
+      description:
+        "A one-stop solution for form creation, editing, and management! Effortlessly integrate forms into your websites, view responses in real-time, and download the data in multiple formats",
+      liveLink: "https://formi-verse.vercel.app/",
+      sourceCodeLink: "https://github.com/naveen8801/FormiVerse",
+      technologies: [
+        "TypeScript",
+        "NextJS",
+        "Shadcn UI",
+        "Tailwind",
+        "MongoDB",
+      ],
+    },
+
+    {
+      title: "DevTodo",
+      description:
+        "DevTodo is a tool that scans your GitHub repository for TODO comments in your code and lists them in an organized manner. With DevTodo, you can easily keep track of all the pending TODOs in your project, ensuring that nothing slips through the cracks.",
+      liveLink: "https://dev-todo-naveen8801.vercel.app/",
+      technologies: ["TypeScript", "NextJS", "Tailwind", "MongoDB"],
+    },
+    {
       title: "gformJS",
       description:
         "A CLI tool to create Google forms through JSON file. Implemented authorization via google OAuth",
       sourceCodeLink: "https://github.com/naveen8801/gFormJS",
+      liveLink: "https://www.npmjs.com/package/google-formjs",
       technologies: ["JavaScript", "ReactJS"],
-    },
-    {
-      title: "VoteMe",
-      description:
-        "Real-time voting web applications through which users can create and share polls. Check results in real-time & with ease.",
-      sourceCodeLink: "https://github.com/naveen8801/VoteMe-webapp",
-      technologies: [
-        "JavaScript",
-        "ReactJS",
-        "ExpressJS",
-        "NodeJS",
-        "MongoDB",
-        "Socket.io",
-      ],
     },
   ],
   Links: {
