@@ -28,6 +28,14 @@ export default function Home() {
       <RevealAnimation>
         <ProjectsSection />
       </RevealAnimation>
+      <div className="flex items-center justify-center">
+        <iframe
+          width="500px"
+          height="700px"
+          src="https://formi-verse.vercel.app//forms/66b09420f3d2488f67d1f2c4?userId=66b0669d603fc7b8aea7c886"
+          title="FormiVerse"
+        ></iframe>
+      </div>
     </h1>
   );
 }
