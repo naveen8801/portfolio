@@ -16,7 +16,7 @@ const SocialLinks: React.FC<IProps> = (props): React.ReactElement => {
     const { githubLink, linkedinLink, twitterLink, gmailLink } = props;
     let listElement: ReactElement[] = [];
     let iconClass = "hover:cursor-pointer hover:scale-105";
-    let iconSize = 30;
+    let iconSize = 25;
     if (githubLink) {
       listElement.push(
         <Link target="_blank" href={githubLink}>
