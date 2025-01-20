@@ -108,6 +108,33 @@ export const data: IData = {
       technologies: ["JavaScript", "ReactJS"],
     },
   ],
+  OpenSourceContributions: [
+    {
+      repoName: "stackguardian/tirith",
+      commitsLink:
+        "https://github.com/StackGuardian/tirith/commits/main/?author=naveen8801",
+    },
+    {
+      repoName: "facebook/lexical",
+      commitsLink:
+        "https://github.com/facebook/lexical/commits/main/?author=naveen8801",
+    },
+    {
+      repoName: "razorpay/blade",
+      commitsLink:
+        "https://github.com/razorpay/blade/commits/master/?author=naveen8801",
+    },
+    {
+      repoName: "anitab-org/bridge-in-tech-web",
+      commitsLink:
+        "https://github.com/anitab-org/bridge-in-tech-web/commits/develop/?author=naveen8801",
+    },
+    {
+      repoName: "anitab-org/bridge-in-tech-backend",
+      commitsLink:
+        "https://github.com/anitab-org/bridge-in-tech-backend/commits/develop/?author=naveen8801",
+    },
+  ],
   Links: {
     github: "https://github.com/naveen8801",
     twitter: "https://twitter.com/naveen__8801",

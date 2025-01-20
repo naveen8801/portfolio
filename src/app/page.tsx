@@ -1,3 +1,4 @@
+import OpenSourceSection from "@/components/OpenSourceSection";
 import EducationSection from "./../components/EducationSection";
 import ExperienceSection from "./../components/ExperienceSection";
 import IntroductionSection from "./../components/IntroductionSection";
@@ -21,8 +22,12 @@ export default function Home() {
         <ExperienceSection />
       </RevealAnimation>
       <RevealAnimation>
+        <OpenSourceSection />
+      </RevealAnimation>
+      <RevealAnimation>
         <ProjectsSection />
       </RevealAnimation>
+
       <div className="flex items-center justify-center">
         <iframe
           width="500px"

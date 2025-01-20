@@ -42,6 +42,11 @@ interface IExperience {
   companyWebsiteURL: string;
 }
 
+interface IIOpenSourceContribution {
+  repoName: string;
+  commitsLink: string;
+}
+
 export interface IData {
   Introduction: IIntroduction;
   Education: IEducation[];
@@ -49,4 +54,5 @@ export interface IData {
   Experience: IExperience[];
   Projects: IProjects[];
   Links: ILinks;
+  OpenSourceContributions: IIOpenSourceContribution[];
 }
