@@ -141,6 +141,6 @@ export const data: IData = {
     email: "naveensharma10d@gmail.com",
     resume:
       "https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing",
-    linkdin: "https://www.linkedin.com/in/naveen-kumar-6777881ab/",
+    linkdin: "https://www.linkedin.com/in/naveen-6777881ab/",
   },
 };
