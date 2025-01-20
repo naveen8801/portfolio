@@ -13,7 +13,7 @@ const OpenSourceSection = () => {
         <div className="w-full">
           <ul className="list-disc pl-5 text-m text-slate-600 dark:text-slate-400">
             {data.map((item, idx) => (
-              <li>
+              <li key={idx}>
                 <Link
                   className="text-blue-500 dark:text-blue-400 "
                   href={item?.commitsLink}
