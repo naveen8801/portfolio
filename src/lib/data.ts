@@ -99,14 +99,6 @@ export const data: IData = {
       sourceCodeLink: "https://github.com/naveen8801/DevTodo",
       technologies: ["TypeScript", "NextJS", "Tailwind", "MongoDB"],
     },
-    {
-      title: "gformJS",
-      description:
-        "A CLI tool to create Google forms through JSON file. Implemented authorization via google OAuth",
-      sourceCodeLink: "https://github.com/naveen8801/gFormJS",
-      liveLink: "https://www.npmjs.com/package/google-formjs",
-      technologies: ["JavaScript", "ReactJS"],
-    },
   ],
   OpenSourceContributions: [
     {
@@ -141,6 +133,6 @@ export const data: IData = {
     email: "naveensharma10d@gmail.com",
     resume:
       "https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing",
-    linkdin: "https://www.linkedin.com/in/naveen-6777881ab/",
+    linkedin: "https://www.linkedin.com/in/naveen-6777881ab/",
   },
 };

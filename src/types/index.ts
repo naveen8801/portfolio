@@ -30,7 +30,7 @@ interface ILinks {
   twitter: string;
   email: string;
   resume: string;
-  linkdin: string;
+  linkedin: string;
 }
 
 interface IExperience {

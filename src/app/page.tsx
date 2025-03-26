@@ -5,6 +5,7 @@ import IntroductionSection from "./../components/IntroductionSection";
 import ProjectsSection from "./../components/ProjectsSection";
 import RevealAnimation from "./../components/RevealAnimation";
 import SkillsSection from "./../components/SkillsSection";
+import { FaMessage } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -27,15 +28,13 @@ export default function Home() {
       <RevealAnimation>
         <ProjectsSection />
       </RevealAnimation>
-
-      <div className="flex items-center justify-center">
-        <iframe
-          width="500px"
-          height="700px"
-          src="https://formi-verse.vercel.app//forms/66b09420f3d2488f67d1f2c4?userId=66b0669d603fc7b8aea7c886"
-          title="FormiVerse"
-        ></iframe>
-      </div>
+      <button
+        className="text-blue-500 dark:text-blue-400  font-semibold text-center flex gap-2 items-center"
+        id="formiverse-form"
+      >
+        Don't be shy, say hi !
+        <FaMessage size={15} className="text-slate-600 dark:text-slate-400" />
+      </button>
     </h1>
   );
 }

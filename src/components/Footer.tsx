@@ -13,7 +13,7 @@ const Footer: React.FC<{ data: IData }> = (props): React.ReactElement => {
         <SocialLinks
           githubLink={links.github}
           twitterLink={links.twitter}
-          linkedinLink={links.linkdin}
+          linkedinLink={links.linkedin}
           gmailLink={links.email}
         />
       </div>
