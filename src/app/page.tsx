@@ -32,7 +32,7 @@ export default function Home() {
         className="text-blue-500 dark:text-blue-400  font-semibold text-center flex gap-2 items-center"
         id="formiverse-form"
       >
-        Don't be shy, say hi !
+        Don&apos;t be shy, say hi !
         <FaMessage size={15} className="text-slate-600 dark:text-slate-400" />
       </button>
     </h1>
