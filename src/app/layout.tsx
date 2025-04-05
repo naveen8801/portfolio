@@ -29,10 +29,9 @@ export default function RootLayout({
       <Script
         strategy="lazyOnload"
         src="https://formi-verse.vercel.app//magical-script.js"
-        data-form-id="67e426256e15e652e134c49f"
-        data-trigger-element-id="formiverse-form" 
-        data-popup-header="Contact Me" 
-        data-popup-height="550" 
+        data-form-id="67f0dae83d89e266921e1266"
+        data-trigger-element-id="formiverse-form"
+        data-popup-height="500"
       />
     </html>
   );
