@@ -14,8 +14,24 @@ import {
   BiLogoDjango,
   BiLogoFlask,
 } from "react-icons/bi";
-import { SiExpress } from "react-icons/si";
-import { TbBrandNextjs, TbBrandSocketIo } from "react-icons/tb";
+import {
+  SiExpress,
+  SiRedux,
+  SiTailwindcss,
+  SiShadcnui,
+  SiAmazonaws,
+  SiAwslambda,
+  SiAmazondynamodb,
+  SiTerraform,
+  SiDocker,
+  SiGithubactions,
+  SiVite,
+  SiTurborepo,
+  SiJest,
+  SiPlaywright,
+  SiVisualstudiocode,
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const SkillsSection: React.FC = (): React.ReactElement => {
   const data = Data.Skills;
@@ -36,14 +52,40 @@ const SkillsSection: React.FC = (): React.ReactElement => {
         return BiLogoNodejs;
       case "Django":
         return BiLogoDjango;
-      case "Python Flask":
+      case "Flask":
         return BiLogoFlask;
       case "NextJS":
         return TbBrandNextjs;
       case "ExpressJS":
         return SiExpress;
-      case "Socket.io":
-        return TbBrandSocketIo;
+      case "Redux":
+        return SiRedux;
+      case "Tailwind CSS":
+        return SiTailwindcss;
+      case "shadcn/ui":
+        return SiShadcnui;
+      case "AWS Cloudscape":
+        return SiAmazonaws;
+      case "Monaco Editor":
+        return SiVisualstudiocode;
+      case "AWS Lambda":
+        return SiAwslambda;
+      case "DynamoDB":
+        return SiAmazondynamodb;
+      case "Terraform":
+        return SiTerraform;
+      case "Docker":
+        return SiDocker;
+      case "GitHub Actions":
+        return SiGithubactions;
+      case "Vite":
+        return SiVite;
+      case "Turborepo":
+        return SiTurborepo;
+      case "Jest":
+        return SiJest;
+      case "Playwright":
+        return SiPlaywright;
       default:
         return FaPlusCircle;
     }

@@ -1,6 +1,6 @@
 import { IData } from "./../types/index";
 //@ts-ignore
-import img from "./../assets/main.jpg";
+import img from "./../assets/face-2026.jpeg";
 
 export const data: IData = {
   Introduction: {
@@ -8,7 +8,7 @@ export const data: IData = {
     currentPosition: "Founding Software Engineer",
     currentCompany: "StackGuardian",
     about:
-      "Hi there! I'm a software engineer who loves finding patterns and connecting dots, be it ideas from different industries, people from different backgrounds and teams, or applications from different industries. I have strong technical skills, particularly in web development-related technologies. Apart from this, I love contributing to open source. ",
+      "Hi there! I'm a founding software engineer at StackGuardian, building the platform across the product dashboard, backend services, component libraries, and open-source tooling. I love finding patterns and connecting dots, and contributing to open source.",
     profileImage: img,
     companyWebsiteURL: "https://www.stackguardian.io/",
   },
@@ -23,43 +23,59 @@ export const data: IData = {
     },
   ],
   Skills: [
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
     "Python",
     "C++",
     "ReactJS",
     "NextJS",
+    "Redux",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "AWS Cloudscape",
+    "Monaco Editor",
     "NodeJS",
-    "Socket.io",
     "ExpressJS",
-    "Python Flask",
     "Django",
+    "Flask",
+    "AWS Lambda",
+    "DynamoDB",
+    "Terraform",
+    "Docker",
+    "GitHub Actions",
+    "Vite",
+    "Turborepo",
+    "Jest",
+    "Playwright",
   ],
   Experience: [
     {
       company: "StackGuardian",
       position: "Founding Software Engineer",
       contributions: [
-        "Investigating and resolving issues reported by clients, ensuring timely responses and resolutions",
-        "Maintaining an understanding of industry trends and emerging technologies to ensure the company's web applications remain up-to-date and competitive",
-        "Implemented core functionalities using ReactJS like server-side pagination, and server-side filtering which reduced the amount of data that needed to be transferred over the network and improved the application's overall performance.",
-        "Worked on integration module of backend Django API and implemented functionality to support bulk accounts integration to the StackGuardian dashboard.",
+        "Designed and shipped most of the StackGuardian dashboard's major product surfaces — workflows, stacks, template library, cloud integrations, RBAC, cost insights, and onboarding — alongside backend work across the Django API, Python core library, and AWS Lambda services.",
+        "Led frontend development of SGCode (Infra2Code), which converts discovered cloud resources into Terraform using AI agents: built the cloud inventory views, the chat workbench with streaming code generation, and resource grouping for AWS, Azure and GCP.",
+        "Set up two React component libraries from scratch, consumed by the product as versioned packages: a browser-based IDE (Monaco editor, file explorer, Terraform plan log viewer) and sg-components-library, the dashboard's component library (authentication screens, onboarding flows, shared UI); owned releases v1 to v5 and onboarded 6+ contributors.",
+        "Built the service that executes user-written JavaScript inside no-code forms: a TypeScript AWS Lambda sandboxing untrusted code with isolated-vm, exposing controlled fetch and AWS/Azure SDK access.",
+        "Built AWS and Azure account onboarding across frontend and backend: AWS Organizations and Azure subscription discovery, integration groups with background provisioning, and OIDC keyless authentication.",
+        "Migrated the frontend toolchain from Create React App to Vite, npm to pnpm, Tailwind v4 and Node 22, cutting CI build-and-deploy time from ~7.5 to ~1.5 minutes (5x) at ~10 deploys/day.",
+        "Sole author of StackGuardian's published Backstage plugin (@stackguardian/backstage-plugin-sg-library): deploy stacks and workflows from inside Backstage using schema-driven no-code forms.",
       ],
       end: "Present",
-      start: "Feb 2023",
+      start: "Jul 2023",
       companyWebsiteURL: "https://www.stackguardian.io/",
     },
     {
       company: "StackGuardian",
       position: "Frontend Engineer Intern",
       contributions: [
-        "Primarily working with ReactsJS to develop and implement features on the StackGuardian frontend repository.",
-        "Working with Django to fix minor bugs related to the StackGuardian backend repository",
-        "Worked with Terraform (Infrastructure as code tool) & OPA (Open Policy Agent)",
-        "Contributing to Tirith (StackGuardian Policy Builder)",
+        "Shipped production features including RBAC role-bindings UI, user invitations, and continuous workflow-run log streaming with reduced request load.",
+        "Built the organization overview dashboards (Infracost cost, infrastructure drift, policy compliance) and the AWS cloud connector flow; co-drove the 2022 dashboard-wide redesign.",
+        "Built the GitHub App webhook pipeline (HMAC signature verification, release/tag events, template git sync) across the Django API and Python core library.",
+        "Contributed to Tirith, StackGuardian's open-source policy engine: built the Workflow and Infracost providers plus six core comparison evaluators.",
       ],
       start: "Nov 2021",
-      end: "Feb 2023",
+      end: "Jun 2023",
       companyWebsiteURL: "https://www.stackguardian.io/",
     },
     {
@@ -107,6 +123,11 @@ export const data: IData = {
         "https://github.com/StackGuardian/tirith/commits/main/?author=naveen8801",
     },
     {
+      repoName: "@stackguardian/backstage-plugin-sg-library",
+      commitsLink:
+        "https://www.npmjs.com/package/@stackguardian/backstage-plugin-sg-library",
+    },
+    {
       repoName: "facebook/lexical",
       commitsLink:
         "https://github.com/facebook/lexical/commits/main/?author=naveen8801",
@@ -132,7 +153,7 @@ export const data: IData = {
     twitter: "https://twitter.com/naveen__8801",
     email: "naveensharma10d@gmail.com",
     resume:
-      "https://drive.google.com/file/d/1IMR5mCOyZHHMqZ9QTTco66xm2sNRU33B/view?usp=sharing",
+      "https://drive.google.com/file/d/1KNASHGoujFCLUmVNifvDccvrE2ZOQNKU/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/naveen-6777881ab/",
   },
 };
